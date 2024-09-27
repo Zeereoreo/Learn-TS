@@ -45,6 +45,8 @@ const companyOrPet: CompanyOrPet = {
     companyRegistrationNumber: 'xxxyyyzzz',
 
     // PetType
-    petName: '3',
-    petAge: 4,
+    // petName: '3',
+    // petAge: 4,
 }
+
+// 오류가 나지 않는 모습을 볼 수 있다.
