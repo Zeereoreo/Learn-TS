@@ -10,15 +10,15 @@ type NestedPerson = {
     nationality: string;
 }
 
-const codefactory: NestedPerson = {
+const person1: NestedPerson = {
     identity:{
         name: '1',
-        age: 32,
+        age: 2,
     },
     nationality: '한국인',
 }
 
-type TPerson = {
+type TPerson1 = {
     identity: TPersonIdentity,
     nationality: string;
 }
@@ -28,10 +28,10 @@ type TPersonIdentity = {
     age: number;
 }
 
-const iu: TPerson = {
+const person2: TPerson1 = {
     identity:{
-        name: '1',
-        age: 32,
+        // name: '1',
+        age: 2,
     },
     nationality: '한국인',
 }
