@@ -27,17 +27,17 @@ class Child extends Parent {
     }
 }
 
-const codefactory = new Parent('코드팩토리');
+const parent = new Parent('1');
 const ahri = new Child('아리', 12);
 
-codefactory.dance();
+parent.dance();
 // codefactory.sing();
 
 ahri.dance();
 ahri.sing();
 
 let person: Parent;
-person = codefactory;
+person = parent;
 person = ahri;
 // 자식은 부모타입이 될 수 있다.
 
@@ -65,10 +65,10 @@ class Child2 extends Parent2{
     }
 }
 
-const cf2 = new Parent2('코드팩토리');
+const parent2 = new Parent2('1');
 const ahri2 = new Child2('아리', 20);
 
 let child: Child2;
 child = ahri2;
 
-child = cf2; //옵셔널 프로퍼티를 사용 할 경우 부무도 자식 타입이 될 수 있다.
+child = parent2; //옵셔널 프로퍼티를 사용 할 경우 부무도 자식 타입이 될 수 있다.
