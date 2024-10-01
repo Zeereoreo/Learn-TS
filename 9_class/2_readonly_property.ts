@@ -17,3 +17,4 @@ person.age = 32;
 
 // readonly 이기 때문에 값을 직접 변경하는 것이 불가능 하다.
 person.name = '2';
+
